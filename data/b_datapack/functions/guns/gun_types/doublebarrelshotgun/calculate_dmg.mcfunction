@@ -6,9 +6,9 @@
 # gun_calc/distance = distance between shooter and getter
 #########################################
 
-scoreboard players operation dmg gun_calc = shotgun_maxDamage gun_type
+scoreboard players operation dmg gun_calc = doublebarrelshotgun_maxDamage gun_type
 
-scoreboard players operation tmp__ gun_calc = shotgun_maxDistance gun_type
+scoreboard players operation tmp__ gun_calc = doublebarrelshotgun_maxDistance gun_type
 scoreboard players operation tmp__ gun_calc -= distance gun_calc
 scoreboard players operation dmg gun_calc *= tmp__ gun_calc
-scoreboard players operation dmg gun_calc /= shotgun_maxDistance gun_type
+scoreboard players operation dmg gun_calc /= doublebarrelshotgun_maxDistance gun_type

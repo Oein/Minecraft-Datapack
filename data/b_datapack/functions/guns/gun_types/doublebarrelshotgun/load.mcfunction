@@ -5,4 +5,4 @@
 
 scoreboard players set doublebarrelshotgun_maxBullet gun_type 2
 scoreboard players set doublebarrelshotgun_maxDistance gun_type 30
-scoreboard players set doublebarrelshotgun_maxDamage gun_type 13
+scoreboard players set doublebarrelshotgun_maxDamage gun_type 21
