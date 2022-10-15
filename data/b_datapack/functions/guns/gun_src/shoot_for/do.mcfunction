@@ -13,14 +13,14 @@ execute as @e[tag=latest_bullet] at @s unless block ~ ~ ~ air run execute as @e[
 
 # Damage To People
 
-execute as @e[tag=latest_bullet] at @s positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.35] run tag @s add shooted
-execute as @e[tag=latest_bullet] at @s positioned ~ ~0.25 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.35] run tag @s add shooted
-execute as @e[tag=latest_bullet] at @s positioned ~ ~0.50 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.35] run tag @s add shooted
-execute as @e[tag=latest_bullet] at @s positioned ~ ~0.75 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.35] run tag @s add shooted
-execute as @e[tag=latest_bullet] at @s positioned ~ ~1.00 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.35] run tag @s add shooted
-execute as @e[tag=latest_bullet] at @s positioned ~ ~1.25 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.35] run tag @s add shooted
-execute as @e[tag=latest_bullet] at @s positioned ~ ~1.50 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.35] run tag @s add shooted
-execute as @e[tag=latest_bullet] at @s positioned ~ ~1.75 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.35] run tag @s add shooted
+execute as @e[tag=latest_bullet] at @s positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.5] run tag @s add shooted
+execute as @e[tag=latest_bullet] at @s positioned ~ ~0.25 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.5] run tag @s add shooted
+execute as @e[tag=latest_bullet] at @s positioned ~ ~0.50 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.5] run tag @s add shooted
+execute as @e[tag=latest_bullet] at @s positioned ~ ~0.75 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.5] run tag @s add shooted
+execute as @e[tag=latest_bullet] at @s positioned ~ ~1.00 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.5] run tag @s add shooted
+execute as @e[tag=latest_bullet] at @s positioned ~ ~1.25 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.5] run tag @s add shooted
+execute as @e[tag=latest_bullet] at @s positioned ~ ~1.50 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.5] run tag @s add shooted
+execute as @e[tag=latest_bullet] at @s positioned ~ ~1.75 ~ positioned ~ ~-1.75 ~ run execute as @e[type=!area_effect_cloud,tag=!shooter,tag=!shootedAlr,distance=0..0.5] run tag @s add shooted
 
 scoreboard players set distance gun_calc 2
 scoreboard players operation distance gun_calc *= maxDistance gun_calc
